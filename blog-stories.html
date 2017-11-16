@@ -11,7 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel="stylesheet">
     <!-- <![endif]-->
 
-    <title>Material Design for Bootstrap</title>
+    <title>*|MC:SUBJECT|*</title><!-- your title goes here-->
 
     <style type="text/css">
         body {
@@ -49,6 +49,9 @@
             font-size: 14px;
             border: 0;
         }
+		.spacing {
+			margin: 10px 0px;
+		}
         /* ----------- responsivity ----------- */
 
         @media only screen and (max-width: 640px) {
@@ -130,28 +133,25 @@
             }
         }
     </style>
-    <!-- [if gte mso 9]><style type=”text/css”>
-        body {
-        font-family: arial, sans-serif!important;
-        }
-        </style>
-    <![endif]-->
+
 </head>
 
 
 <body class="respond" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-    <!-- pre-header -->
+    <!-- pre-header storing the margin and hieght adjustment-->
     <table style="display:none!important;">
         <tr>
             <td>
                 <div style="overflow:hidden;display:none;font-size:1px;color:#ffffff;line-height:1px;font-family:Arial;maxheight:0px;max-width:0px;opacity:0;">
-                    Pre-header for the newsletter template
+                 
                 </div>
             </td>
         </tr>
     </table>
     <!-- pre-header end -->
-    <!-- header -->
+    
+    
+    <!-- The header consist of the logo and optional navigation elements-->
     <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="ffffff">
 
         <tr>
@@ -169,7 +169,8 @@
 
                                 <tr>
                                     <td align="center" height="70" style="height:70px;">
-                                        <a href="" style="display: block; border-style: none !important; border: 0 !important;"><img width="100" border="0" style="display: block; width: 100px;" src="https://mdbootstrap.com/img/logo/mdb-email.png" alt="" /></a>
+                                        <a href="" style="display: block; border-style: none !important; border: 0 !important;"><img width="100" border="0" style="display: block; width: 100px;" src="" alt="" /></a>
+                                        [Logo Goes Here size is - 230 x 80]<!-- place your company logo here-->
                                     </td>
                                 </tr>
 
@@ -177,9 +178,10 @@
                                     <td align="center">
                                         <table width="360 " border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"
                                             class="container590 hide">
+                                            <!--Optional Navigation elements, we may want to use these sometimes if its just a heneral announcement-->
                                             <tr>
                                                 <td width="120" align="center" style="font-size: 14px; font-family: 'Work Sans', Calibri, sans-serif; line-height: 24px;">
-                                                    <a href="" style="color: #312c32; text-decoration: none;">HOME</a>
+                                                    <a href="#" style="color: #312c32; text-decoration: none;">HOME</a>
                                                 </td>
                                                 <td width="120" align="center" style="font-size: 14px; font-family: 'Work Sans', Calibri, sans-serif; line-height: 24px;">
                                                     <a href="" style="color: #312c32; text-decoration: none;">ABOUT</a>
@@ -204,11 +206,23 @@
         </tr>
     </table>
     <!-- end header -->
+    
+    
+    <!-- The body is set up in different components. This allows for us to simplay drag and drop the information we want depending on the message we wish to send-->
 
-    <!-- big image section -->
+    <!-- Hero image with Caption -->
     <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="ffffff" class="bg_color">
 
         <tr>
+		 <tr>
+			<td align="center" width="590" style="color: #343434; font-size: 36px; font-family: 'Roboto', sans-serif; font-weight:700;letter-spacing: 3px; line-height: 35px; margin: 20px 0px;"
+				class="main-header">
+				<div style="line-height: 35px;
+					width: 590px; margin: 50px 0px;">
+					 Hero Image with small call to action
+				</div>
+			</td>
+		</tr>
             <td align="center">
                 <table border="0" align="center" width="590" cellpadding="0" cellspacing="0" class="container590">
                     <tr>
@@ -227,7 +241,7 @@
 
                             <div style="line-height: 35px">
 
-                                Inspiring Young Inventors, <span style="color: #126cb5;">Designers and Engineers</span>
+                                Tech Edventures Winter Camp Comes to  <span style="color: #126cb5;">Gideon Math & Reading</span>
 
                             </div>
                         </td>
@@ -253,15 +267,17 @@
 
                     <tr>
                         <td align="center">
-                            <table border="0" width="400" align="center" cellpadding="0" cellspacing="0" class="container590">
+                            <table border="0" width="590" align="left" cellpadding="0" cellspacing="0" class="container590">
                                 <tr>
-                                    <td align="center" style="color: #888888; font-size: 16px; font-family: 'Roboto', sans-serif; line-height: 24px;">
+                                    <td align="center" style="color: #888888; font-size: 16px; font-family: 'Roboto', sans-serif; line-height: 24px; spacing: 2px;">
 
 
                                         <div style="line-height: 24px">
-
-                                            The world of tomorrow is built on skills that engineering, design, and coding teach. Created in Silicon Valley by a visionary educator, Tech Edventures helps make this fun!
+                                            <p>Tech EdVentures kids get hands-on as they wire circuits, build robots, write computer code and paint their inspiration on a digital canvas. Serious learning meets serious fun.</p>
+                                            
+                                            <p>Tech EdVentures kids get hands-on as they wire circuits, build robots, write computer code and paint their inspiration on a digital canvas. Serious learning meets serious fun.</p>
                                         </div>
+
                                     </td>
                                 </tr>
                             </table>
@@ -273,7 +289,7 @@
                     </tr>
 
                     <tr>
-                        <td align="center">
+                        <td align="left">
                             <table border="0" align="center" width="160" cellpadding="0" cellspacing="0" bgcolor="5caad2" style="background-color: #126cb5;">
 
                                 <tr>
@@ -313,8 +329,15 @@
 
     </table>
     <!-- end section -->
-
-    <!--  50% image -->
+    
+    
+    
+		<div class="spacing"></div><!-- spacing helps space things out a little bit more to avoid clutter, it alerts the user that they are entering a new section within the email-->
+   
+   
+   
+   
+    <!--  Image Blocks used for  displaying  new products or services or images-->
 
     <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="ffffff">
         <tr>
@@ -725,9 +748,19 @@
 
     </table>
     <!-- end section -->
-
+<div class="spacing"></div>
     <!--  50% image -->
+
     <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="ffffff">
+           	<tr>
+			<td align="center" width="590" style="color: #343434; font-size: 36px; font-family: 'Roboto', sans-serif; font-weight:700;letter-spacing: 3px; line-height: 35px; margin: 20px 0px;"
+				class="main-header">
+				<div style="line-height: 35px;
+					width: 590px; margin: 50px 0px;">
+					 Blog Post Format 
+				</div>
+			</td>
+		</tr>
         <tr>
             <td align="center">
                 <table border="0" align="center" width="590" cellpadding="0" cellspacing="0" class="container590">
@@ -740,6 +773,7 @@
 
                                 <tr>
                                     <td align="center">
+                                       <!-- image goes here -->
                                         <a href="" style=" border-style: none !important; border: 0 !important;"><img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(54).jpg" style="display: block; width: 280px;" width="280" border="0" alt="" /></a>
                                     </td>
                                 </tr>
@@ -761,7 +795,7 @@
 
                                         <div style="line-height: 35px">
 
-                                            BLOG POST TWO
+                                            TechEdventures Blog Post Title
 
                                         </div>
                                     </td>
@@ -855,7 +889,7 @@
 
     </table>
     <!-- end section -->
-
+<div class="spacing"></div>
     <!--  50% image -->
         <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="ffffff">
         <tr>
@@ -1242,7 +1276,7 @@
 
     </table>
     <!-- end section -->
-    
+    <div class="spacing"></div>
     <!-- Plain Text Section -->
     
     
@@ -1327,8 +1361,8 @@
 
                                         </table>
                                         <p style="line-height: 24px">
-                                            Love,</br>
-                                            The MDB team
+                                            TechEdventures</br>
+                                            
                                         </p>
 
                                     </td>
@@ -1336,8 +1370,107 @@
                             </table>
                         </td>
                     </tr>
+        <tr class="hide">
+            <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+        </tr>
+        <tr>
+            <td height="40" style="font-size: 64px; line-height: 40px;">&nbsp;</td>
+        </tr>
 
-   
+<div class="spacing"></div>
+    
+    
+    
+     <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="2a2e36">
+
+        <tr>
+            <td align="center" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/slide.jpg); background-size: cover; background-position: top center; background-repeat: no-repeat;"
+                background="https://mdbootstrap.com/img/Photos/Others/slide.jpg">
+
+                <table border="0" align="center" width="590" cellpadding="0" cellspacing="0" class="container590">
+
+                    <tr>
+                        <td height="50" style="font-size: 50px; line-height: 50px;">&nbsp;</td>
+                    </tr>
+
+                    <tr>
+                        <td align="center">
+                            <table border="0" width="380" align="center" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"
+                                class="container590">
+
+                                <tr>
+                                    <td align="center">
+                                        <table border="0" align="center" cellpadding="0" cellspacing="0" class="container580">
+                                            <tr>
+                                                <td align="center" style="color: #cccccc; font-size: 16px; font-family: 'Work Sans', Calibri, sans-serif; line-height: 26px;">
+                                                    <!-- section text ======-->
+
+                                                    <div style="line-height: 26px">
+
+                                                        The all new AW16 range is out. View an exclusive preview.
+
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td height="25" style="font-size: 25px; line-height: 25px;">&nbsp;</td>
+                    </tr>
+
+                    <tr>
+                        <td align="center">
+                            <table border="0" align="center" width="250" cellpadding="0" cellspacing="0" style="border:2px solid #ffffff;">
+
+                                <tr>
+                                    <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                </tr>
+
+                                <tr>
+                                    <td align="center" style="color: #ffffff; font-size: 14px; font-family: 'Work Sans', Calibri, sans-serif; line-height: 22px; letter-spacing: 2px;">
+                                        <!-- main section button -->
+
+                                        <div style="line-height: 22px;">
+                                            <a href="" style="color: #fff; text-decoration: none;">VIEW THE COLLECTION</a>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td height="50" style="font-size: 50px; line-height: 50px;">&nbsp;</td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+
+    </table>
+
+    <!-- end section -->
+    
+    <div class="spacing"></div>
+        <tr class="hide">
+            <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+        </tr>
+        <tr>
+            <td height="40" style="font-size: 64px; line-height: 40px;">&nbsp;</td>
+        </tr>
+       
     <!-- Invite friends -->
     <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="ffffff">
         <tr>
@@ -1427,6 +1560,10 @@
 
     </table>
     <!-- end section ====== -->
+    
+    
+    
+    
     <!-- contact section -->
     <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="ffffff" class="bg_color">
 
@@ -1528,7 +1665,9 @@
     </table>
     <!-- end section -->
 
-    <!-- footer ====== -->
+    
+
+    <!-- Beginning of the footer component====== -->
     <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="f4f4f4">
 
         <tr>
